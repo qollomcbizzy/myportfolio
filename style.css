@@ -117,14 +117,14 @@
 .myfavorites{
   font-size: 20px;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 400;
   font-family: sans-serif;
 
 }
 .favorite{
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
   font-family: serif;
   text-indent: inherit;
   text-decoration: underline;
@@ -136,7 +136,7 @@
 .me{
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
   font-family: serif;
   text-indent: inherit;
   text-decoration: underline;
@@ -157,7 +157,7 @@ body{
 }
 #aboutme p{
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
   font-style: normal;
   font-family: sans-serif;
 }
@@ -173,6 +173,6 @@ body{
   list-style-type: circle;
   font-size: 20px;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 400;
   font-family: sans-serif;
 }
