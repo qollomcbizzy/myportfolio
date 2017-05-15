@@ -1,0 +1,178 @@
+/*div for the header*/
+.headerdiv{
+  text-shadow: 2px 2px blue;
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color:white;
+  height: 100px;
+  padding-top: 12px;
+}
+.headertext{
+  padding: 20px;
+  margin-top: 20px;
+}
+#topnav{
+  background-color: aliceblue;
+  border-bottom: 1px solid gray;
+}
+#home{
+  padding: 24px 26px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+#home a{
+  text-decoration: none;
+  cursor: pointer;
+}
+#about{
+  padding: 24px 26px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+#about a{
+  text-decoration: none;
+  cursor: pointer;
+}
+#myprojects{
+  padding: 24px 26px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+#myprojects a{
+  text-decoration: none;
+  cursor: pointer;
+}
+#myfavorite{
+  padding: 24px 26px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+#myfavorite a{
+  text-decoration: none;
+  cursor: pointer;
+}
+/*tool tip  to display my name
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+     Position the tooltip
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+*/
+/*div for the image*/
+#imageview{
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+}
+.image{
+ width: 100%;
+ height: 100%;
+ border-radius: 30px;
+}
+.image:hover{
+  opacity:0.9;
+}
+.paragraphdiv{
+  background-color: white;
+  margin-top: 20px;
+  padding-right: 5%;
+  font-weight: 300;
+  font-size:20px;
+}
+.project{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+  text-indent: inherit;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  background-color:aliceblue;
+  padding:24px 26px;
+}
+.myfavorites{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: sans-serif;
+
+}
+.favorite{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+  text-indent: inherit;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  background-color:aliceblue;
+  padding:24px 26px;
+}
+.me{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+  text-indent: inherit;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  background-color:aliceblue;
+  padding:24px 26px;
+}
+body{
+  clear: :both;
+  position: relative;
+}
+/*property for the footer*/
+#aboutme{
+  text-align: center;
+  font-family: serif;
+  background-color: rgb(236, 207, 151);
+}
+#aboutme p{
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+}
+#aboutme h3{
+  color:rgb(42, 103, 172);
+  font-size: 30px;
+
+}
+/*divs in the footer*/
+  .li1{
+  padding-top: 20px;
+  text-decoration: none;
+  list-style-type: circle;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
