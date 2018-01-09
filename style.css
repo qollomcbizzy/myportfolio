@@ -9,8 +9,7 @@
   padding-top: 12px;
 }
 .headertext{
-  padding: 20px;
-  margin-top: 20px;
+  padding-top: 10px;
 }
 #topnav{
   background-color: aliceblue;
@@ -153,7 +152,7 @@ body{
 #aboutme{
   text-align: center;
   font-family: serif;
-  background-color: rgb(236, 207, 151);
+  /*background-color: rgb(236, 207, 151);*/
 }
 #aboutme p{
   font-size: 20px;
@@ -175,4 +174,11 @@ body{
   font-style: normal;
   font-weight: 400;
   font-family: sans-serif;
+}
+#skills{
+  padding-top: 30px;
+  border: 1px solid grey;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
 }
